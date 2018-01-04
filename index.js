@@ -80,7 +80,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
- if (exists (cardNumber)) {
+ if (cardNumber !== undefined) {
    console.log("placeholder");
  }
  else {
