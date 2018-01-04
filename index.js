@@ -72,14 +72,13 @@ function removeFromCart(item) {
       return cart;
 }
   else {
-    debugger
-
 }
 }
   console.log("That item is not in your cart.");
 }
 
 function placeOrder(cardNumber) {
+  total();
  if (cardNumber !== undefined) {
    console.log(`Your total cost is $${sum}, which will be charged to the card ${cardNumber}.`);
  }
